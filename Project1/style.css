@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+}
+.modalWinSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 68%;
+    height: max-content;
+}
+.happyClientsWinSectio {
+    width: 32%;
+    height: 100vh;
+    border-left: 0px solid black ;
+    box-shadow: 0 0 0, -.5em 0 .9em rgb(220, 220, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dots {
+    margin: 3%;
+    width: 200px;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Dots {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    width: 90%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.singUp {
+    width: 20px;
+    height: 20px;
+    background-color: #EF5C4B;
+    border-radius: 50%;
+}
+.line {
+    width: 120px;
+    height: 2px;
+    border: 1px solid #C0C0C0;
+    background-color: #C0C0C0;
+}
+.ternering {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #C0C0C0;
+}
+.modalWin {
+    width: 352px;
+    height: 532px;
+    border: 0px solid black;
+    border-radius: 12px;
+    box-shadow: 0 0 0, 0 -.1em 1em rgb(190, 186, 186);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.premium {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.faster {
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: flex-start;
+    font-size: smaller;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #979b9c;
+}
+.a {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.cardNumber {
+    background: url(icons8-magnetic-card-32.png) no-repeat scroll 99% -1px;
+}
+.dateCountry  {
+    height: 10%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.dateCountry :first-child {
+    height: 100%;
+    width: 60%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.dateCountry :last-child {
+    height: 100%;
+    width: 30%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.accept {
+    font-size: smaller;
+}
+.button {
+    width: 80%;
+    height: 60px;
+    border-radius: 8% / 50%;
+    background: linear-gradient(270deg, #C23584 0%, #E2306C 24.48%, #F77736 83.85%, #FA963E 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.input {
+    margin: 10px;
+}
+.checkbox {
+    color: #C23584;
+}
+.coupon {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E1306C;
+}
+.imgSlider {
+    margin-top: 10px;
+}
+.happyClientsWinSectio :nth-child(n) {
+    margin-top: 10px;
+}
+.happyClientsWinSectio img {
+    border-radius: 50%;
+    width: 50px;
+}
+.imgSlider :nth-child(n){
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+.happyClientsWinSectio p {
+    width: 60%;
+}
+.vectors {
+    display: flex;
+}
+.vectors :nth-child(n) {
+    width: 20px;
+}
+.media {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
